@@ -47,14 +47,15 @@ public class Alfabeto extends Pictograma {
 		
 		for (int i = 0; i < this.letras.length; i++) {
 			
-			if (i < this.letras.length-1) {
+			if (i == this.letras.length) {
 				
-				imp += this.letras[i] + ", ";
+				imp += this.letras[i];
 			}
 			
 			else {
 				
 				imp += this.letras[i];
+				imp += ", ";
 			}
 		}
 		return imp;
