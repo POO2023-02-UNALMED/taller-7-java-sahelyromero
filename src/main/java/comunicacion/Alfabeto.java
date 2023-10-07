@@ -49,12 +49,12 @@ public class Alfabeto extends Pictograma {
 			
 			if (i < this.letras.length-1) {
 				
-				imp += i + ", ";
+				imp += this.letras[i] + ", ";
 			}
 			
 			else {
 				
-				imp += i;
+				imp += this.letras[i];
 			}
 		}
 		return imp;
