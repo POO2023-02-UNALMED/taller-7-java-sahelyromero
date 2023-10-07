@@ -43,21 +43,20 @@ public class Alfabeto extends Pictograma {
 	
 	public String toString() {
 		
-		String imp = null;
+		String im = null;
 		
 		for (int i = 0; i < this.letras.length; i++) {
 			
 			if (i < this.letras.length-1) {
 				
-				imp += i + ", ";
+				im += i + ", ";
 			}
 			
 			else {
 				
-				imp += i;
+				im += i;
 			}
 		}
-		return imp;
+		return im;
 	}
-
 }
