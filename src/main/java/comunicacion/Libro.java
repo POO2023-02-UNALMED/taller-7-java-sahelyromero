@@ -73,5 +73,4 @@ public class Libro extends Escrito{
 				+ this.edicion);
 		
 	}
-
 }

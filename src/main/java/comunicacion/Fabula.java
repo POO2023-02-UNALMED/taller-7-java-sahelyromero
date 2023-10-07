@@ -51,5 +51,4 @@ public class Fabula extends Escrito{
 				+ this.ensenanza);
 		
 	}
-
 }

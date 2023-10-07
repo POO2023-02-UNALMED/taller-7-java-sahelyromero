@@ -62,5 +62,4 @@ public class Periodico extends Escrito{
 				+ this.primicia);
 		
 	}
-
 }

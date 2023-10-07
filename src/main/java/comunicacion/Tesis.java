@@ -83,6 +83,5 @@ public class Tesis extends Escrito{
 				+ this.conclusion + "\n"
 				+ this.referencias);
 		
-	}
-	
+	}	
 }
